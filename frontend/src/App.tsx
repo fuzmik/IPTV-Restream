@@ -20,7 +20,7 @@ function App() {
   const [isTvPlaylistOpen, setIsTvPlaylistOpen] = useState(false);
   const [syncEnabled, setSyncEnabled] = useState(() => {
     const savedValue = localStorage.getItem('syncEnabled');
-    return savedValue !== null ? JSON.parse(savedValue) : true;
+    return savedValue !== null ? JSON.parse(savedValue) : false;
   });
   const [searchQuery, setSearchQuery] = useState('');
   const [editChannel, setEditChannel] = useState<Channel | null>(null);
