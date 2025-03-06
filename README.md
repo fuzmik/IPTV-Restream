@@ -4,7 +4,9 @@
 >A simple IPTV `restream` and `synchronization` (watch2gether) application with `web` frontend. Share your iptv playlist and watch it together with your friends.
 > 
 >Actively in devlopment and open for your ideas! <br>
-> [TEST HERE](https://ante.is-a.dev) (Only for testing, the used channels are free (not reliable) and zhe server's distance may cause longer loading times.)
+> [TEST HERE](https://ante.is-a.dev) (Only for testing, the used channels are free (not reliable) and zhe server's distance may cause longer loading times. **Try locally** if the test server is down.)
+>
+> [![Test Server Status](https://github.com/antebrl/cron-jobs/actions/workflows/daily-channel-clear.yml/badge.svg)](https://ante.is-a.dev)
 
 ## 💡Use Cases
 - [x] IPTV Web player supporting multiple playlists at once.
